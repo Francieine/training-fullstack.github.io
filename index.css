@@ -1,0 +1,89 @@
+
+.header{
+    padding: 80px;
+    text-align: center;
+    background-image: url(fundo-do-padrao-dos-quadrados-pretos.jpg); /*credits: Picture's desEYEns in Freepik*/
+    color: white;
+}
+
+.header > h1{
+    font-size: 40px;
+}
+
+/*Styling the top navigation bar*/
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left; /*make element float to left, rigth, need stay side-by-side*/
+    display: block;
+    text-align: center;
+    text-decoration: none; /*remove underline*/
+    color: white;
+    padding: 14px 20px;
+}
+
+.navbar a.right{ /*Right-aligned link*/
+    float: right; /*Float a link to the right*/
+}
+
+/*change color when pass the mouse*/
+.navbar a:hover{
+    background-color: #ddd; /*background is grey*/
+    color: black; /*color the text when pass mouse is black*/
+}
+
+*{
+    box-sizing: border-box; /*Ensure proper sizing*/
+    background-color: black;
+}
+
+/*Container*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side { /*sidebar left column*/
+    flex: 30px;/*Set the width of the sidebar*/
+    background-color: black; 
+    padding: 20px;
+}
+
+.side > img{
+    width: 100%;
+}
+
+/*Main column at center*/
+.main {
+    flex: 70px;/*Set the width of the main content*/
+    background-color: black; 
+    padding: 20px;
+    color: white;
+}
+
+/*Media queries to make the layout reponsive, in others words make the website looks good on all devices (desktop, laptops, tablets and mobile*/
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:400px){
+    .navbar a{
+       float: none;
+       width: 100%;
+    }
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+    color: white;
+}
