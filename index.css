@@ -1,4 +1,9 @@
 
+body{
+    font-family: 'Gruppo', sans-serif;
+
+
+}
 .header{
     padding: 80px;
     text-align: center;
@@ -15,6 +20,8 @@
 .navbar{
     overflow: hidden;
     background-color: #333;
+    padding: 10px;
+    margin: 10px;
 }
 
 .navbar a {
@@ -64,6 +71,7 @@
     background-color: black; 
     padding: 20px;
     color: white;
+
 }
 
 /*Media queries to make the layout reponsive, in others words make the website looks good on all devices (desktop, laptops, tablets and mobile*/
