@@ -1,12 +1,13 @@
 
 body{
-    font-family: 'Gruppo', sans-serif;
-
-
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
 }
 .header{
     padding: 80px;
-    text-align: center;
+    text-align: left;
     background-image: url(fundo-do-padrao-dos-quadrados-pretos.jpg); /*credits: Picture's desEYEns in Freepik*/
     color: white;
 }
@@ -20,8 +21,7 @@ body{
 .navbar{
     overflow: hidden;
     background-color: #333;
-    padding: 10px;
-    margin: 10px;
+
 }
 
 .navbar a {
@@ -33,14 +33,19 @@ body{
     padding: 14px 20px;
 }
 
-.navbar a.right{ /*Right-aligned link*/
-    float: right; /*Float a link to the right*/
-}
-
 /*change color when pass the mouse*/
 .navbar a:hover{
     background-color: #ddd; /*background is grey*/
     color: black; /*color the text when pass mouse is black*/
+}
+
+#logo-img{
+    background-image: url(moldura-de-ouro-em-um-fundo-preto-textura.jpg);
+    width: 40px;
+}
+
+.header > a{
+    color: white;
 }
 
 *{
