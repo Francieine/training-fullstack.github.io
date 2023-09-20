@@ -12,8 +12,11 @@ body{
     color: white;
 }
 
-.header > h1{
+a > h1{
     font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 30px;
 }
 
 /*Styling the top navigation bar*/
@@ -77,6 +80,29 @@ body{
     padding: 20px;
     color: white;
 
+}
+
+.main > p{
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.btn-text-1{
+   font-size: 14px;
+   width: 35%;
+   border: 1px solid white;
+   border-radius: 12px;
+   padding-top: 0.5%;
+   color: black;
+   background-color: white;
+   text-align: center;
+   font-weight: bold;
+
+}
+
+.btn-text-1:hover{
+    background-color: black;
+    color: white;
 }
 
 /*Media queries to make the layout reponsive, in others words make the website looks good on all devices (desktop, laptops, tablets and mobile*/
