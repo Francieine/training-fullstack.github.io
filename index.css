@@ -10,6 +10,7 @@ body{
     text-align: left;
     background-image: url(fundo-do-padrao-dos-quadrados-pretos.jpg); /*credits: Picture's desEYEns in Freepik*/
     color: white;
+    margin-top: -2%;
 }
 
 a > h1{
@@ -32,7 +33,6 @@ a > h1{
     display: block;
     text-align: center;
     text-decoration: none; /*remove underline*/
-    color: white;
     padding: 14px 20px;
 }
 
