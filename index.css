@@ -81,6 +81,42 @@ a > h1{
     color: white;
 
 }
+.row-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side-opt { /*sidebar left column*/
+    flex: 30px;/*Set the width of the sidebar*/
+    background-color: black; 
+    padding: 20px;
+}
+
+.side-opt > img{
+    width: 35%;
+}
+.main-opt > img{
+    width: 35%;
+}
+.opt-title{
+    text-align: center;
+    color: white;
+}
+
+.text-p{
+    text-align: justify;
+    color: white;
+}
+/*Main column at center*/
+.main-opt {
+    flex: 70px;/*Set the width of the main content*/
+    background-color: black; 
+    padding: 20px;
+    color: white;
+
+}
+
+
 
 .main > p{
     text-align: justify;
